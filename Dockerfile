@@ -1,7 +1,7 @@
 FROM alpine:latest
 
 WORKDIR /root
-COPY v2ray.sh /root/v2ray.sh
+COPY v2.sh /root/v2ray.sh
 
 RUN set -ex \
     && apk add --no-cache tzdata openssl ca-certificates \
